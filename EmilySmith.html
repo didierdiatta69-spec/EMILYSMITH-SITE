@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emily smith</title>
+    <style>
+        body{
+            background-color: rgb(240, 234, 201);
+            margin: 0px;
+            padding: 20px;
+            font-size: small;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 72px; 
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .logo{
+        font-weight: bold;
+        font-size: 30px;
+        color: darkcyan;
+    }
+    
+    .menu ul {
+        display: flex;
+        list-style: none;
+        gap: 100px;
+        align-items: center;
+
+    } 
+     .menu a{
+        color: #333;
+        font-weight: 100;
+        font-size: larger;
+        transition: 0.5s;
+        display: flex;
+        font-size: 20px;
+     }
+      .menu a:hover{
+        color: #000;
+      }
+      .home{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #0d0e0d;
+    }
+    .home h4{
+        font-family: ;
+        font-size: 72px;
+    }
+    .images{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 15px;
+        transition: 5s;
+        cursor: pointer;
+
+
+    }
+    
+    .images img:hover{
+        width: 15%;
+        height: 15%;
+        filter: contrast(1.1);
+    }
+    .bnt{
+        background-color: rgb(182, 164, 60);
+        padding: 15px;
+        border-radius: 20px;
+        font-size: 20px;
+        border: none;
+        transition: 2s;
+    }
+    .bnt:hover{
+        background-color: rgb(185, 134, 23);
+        cursor: pointer;
+        size: 20px;
+        font-size: 20px;
+
+
+    }
+    .reduction{
+        font-size: 20px;
+        background-color: rgb(233, 218, 136);
+        border-radius: 16px;
+        cursor: pointer;
+        align-items: center;
+        text-align: center;
+        transition: 0.5s;
+        line-height: 40px;
+
+
+    }
+    .reduction:hover{
+        font-family: 'Georgia, Times,''Times New Roman', serif;
+        font-size: 22px;
+
+    }
+    .logo{
+        border-radius: 50px 20px 30px;
+    }
+    
+
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="c:\Users\Cliente\Downloads\EMILYSMITH.png" alt="logo" height="220" width="220">
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="Accueille">Accueille</a>
+                </li>
+                <li>
+                    <a href="services">Services</a>
+                </li>
+                <li>
+                    <a href="contacts">Contats</a>
+                </li>
+                <li>
+                    <a href="nous">Nous</a>
+                </li>
+                <button class="bnt">Commandez</button>
+
+            </ul>
+
+
+        </nav>
+    </header>
+    <main>
+        <div class="home">
+            <h4>EMILY SMITH</h4>
+            <h1>la beaute naturelle vouz appel <br>Ne manquer pas cette oppotinuee</h1>
+        </div>
+        <div class="images">
+            <img src="c:\Users\Cliente\Downloads\pexels-twinkles_photos-414046518-34113315.jpg"
+            alt="photo"
+           width="200"
+            height="300"
+            style="border-radius: 20px;">
+            <img src="c:\Users\Cliente\Downloads\pexels-santuraki-29070341.jpg"
+            alt="photo"
+           width="200"
+            height="300"
+            style="border-radius: 20px;">
+            <img src="c:\Users\Cliente\Downloads\pexels-jenum-2148499060-38472458.jpg"
+            alt="photo"
+          width="200"
+            height="300"
+            style="border-radius: 20px;">
+            <img src="c:\Users\Cliente\Downloads\pexels-santuraki-29070341.jpg"
+            alt="photo"
+            width="200"
+            height="300"
+            style="border-radius: 20px;">
+          
+        </div>
+    </main>
+          <div>
+            <p class="reduction">EMILYSMITH vouz propose une experiance pleine de sensations.<br> Une game exclusive pour votre bien-etre quotidient
+            </p>
+          </div>
+          
+          
+</body>
+</html>
